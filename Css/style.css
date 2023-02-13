@@ -48,13 +48,13 @@
     display:flex;
     flex-direction: row;
     align-items: center;  
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-label{
+.label{
     min-width: 140px;
     padding: 12px 12px 12px 0px;
 }
-input{
+.input{
     max-width: 65%;
     width: 100%;
     padding: 8px;
@@ -66,4 +66,23 @@ input{
     font-size: 16px;
     opacity: 1;
     color: #42515f;
+}
+
+.profile-radio-content{
+    display: flex;
+    flex-direction: row;
+}
+.profile-radio-content>label{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.profile-radio-content>label>img{
+    margin-right:30px;
+    border-radius: 55%;
+    width:35px;
+    border-radius: 50%;
+
 }
